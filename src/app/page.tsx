@@ -1,9 +1,10 @@
-import Image from "next/image";
+"use client"
+import App from "next/app";
 
 export default function Home() {
   return (
-    <main>
-      Hello
-    </main>
+    <>
+      <App/>
+    </>
   );
 }
